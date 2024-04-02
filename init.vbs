@@ -16,7 +16,7 @@ Else
 End If
 
 ' Esperar 25 segundos
-WScript.Sleep 25000
+WScript.Sleep 15000
 
 ' Lanzar acciones en CMD
 strCmd1 = "cd ""c:\program files\shadow defender\"""
