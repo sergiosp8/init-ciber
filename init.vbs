@@ -11,6 +11,7 @@ strProcessName = "cyberadmin.exe"
 If CheckProcessRunning(strProcessName) Then
     WriteLog "El proceso " & strProcessName & " ya estaba abierto."
 Else
+		objShell.Run strProcessName, 0, True
     WriteLog "El proceso " & strProcessName & " se abrió con el script."
 End If
 
